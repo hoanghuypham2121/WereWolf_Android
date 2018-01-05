@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="werewolf.random_characters.login_Names">
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/bachlq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Bách"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/baottd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Bảo"
+        app:layout_constraintEnd_toStartOf="@+id/cuonglv"
+        app:layout_constraintHorizontal_bias="0.524"
+        app:layout_constraintStart_toEndOf="@+id/bachlq"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/cuonglv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Cường"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/danhtc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Danh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bachlq" />
+
+    <CheckBox
+        android:id="@+id/ducnvv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Đức"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cuonglv" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/huunv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hữu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/danhtc" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/hanlts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hân"
+        app:layout_constraintEnd_toStartOf="@+id/hienlm"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toEndOf="@+id/huunv"
+        app:layout_constraintTop_toBottomOf="@+id/duyvk" />
+
+    <CheckBox
+        android:id="@+id/duyvk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Duy"
+        app:layout_constraintEnd_toStartOf="@+id/ducnvv"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toEndOf="@+id/danhtc"
+        app:layout_constraintTop_toBottomOf="@+id/baottd" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/hienlm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hiền"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ducnvv" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/hieuhd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hiếu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/huunv" />
+
+    <CheckBox
+        android:id="@+id/hoaittt"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Hoài"
+        app:layout_constraintEnd_toStartOf="@+id/hoangph"
+        app:layout_constraintHorizontal_bias="0.546"
+        app:layout_constraintStart_toEndOf="@+id/hieuhd"
+        app:layout_constraintTop_toBottomOf="@+id/hanlts" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/hoangph"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Hoàng"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hienlm" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/huytl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Huy"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hieuhd" />
+
+    <CheckBox
+        android:id="@+id/khanhtq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Khánh"
+        app:layout_constraintEnd_toStartOf="@+id/khoipd"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toEndOf="@+id/huytl"
+        app:layout_constraintTop_toBottomOf="@+id/hoaittt" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/khoipd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Khôi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hoangph" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/luantt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Luận"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/huytl" />
+
+    <CheckBox
+        android:id="@+id/ngocndt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Ngọc"
+        app:layout_constraintEnd_toStartOf="@+id/nhantt"
+        app:layout_constraintHorizontal_bias="0.64"
+        app:layout_constraintStart_toEndOf="@+id/luantt"
+        app:layout_constraintTop_toBottomOf="@+id/khanhtq" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/nhantt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Trần Nhàn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/khoipd" />
+
+    <CheckBox
+        android:onClick="addElement"
+        android:id="@+id/nhanhltt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Lê Nhàn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/luantt" />
+
+    <CheckBox
+        android:id="@+id/thinhnh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:onClick="addElement"
+        android:text="Thịnh"
+        app:layout_constraintEnd_toStartOf="@+id/tuannq"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toEndOf="@+id/nhanhltt"
+        app:layout_constraintTop_toBottomOf="@+id/ngocndt" />
+
+    <CheckBox
+        android:id="@+id/tuannq"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:onClick="addElement"
+        android:text="Tuấn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nhantt" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="232dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="GO !"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

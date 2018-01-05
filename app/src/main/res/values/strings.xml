@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">WereWolf_Android</string>
+
+    <string-array name="characters">
+        <item> Sói </item>
+        <item> Thợ Săn </item>
+        <item> Dân </item>
+        <item> Pháp sư câm </item>
+        <item> Bảo vệ </item>
+        <item> Nguyền rủa </item>
+        <item> Tiên Tri </item>
+        <item> Phù thủy </item>
+        <item> Cupid </item>
+        <item> Yêu tinh </item>
+        <item> Chán đời </item>
+        <item> Sói con </item>
+        <item> Già làng </item>
+        <item> Con bệnh </item>
+        <item> Nhân bản </item>
+        <item> Phản bội </item>
+
+
+    </string-array>
+</resources>
