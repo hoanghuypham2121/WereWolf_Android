@@ -17,12 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".characters_Choices" />
-<<<<<<< HEAD
         <activity android:name=".Result"></activity>
-=======
-        <activity android:name=".Result" />
         <activity android:name=".show"></activity>
->>>>>>> Initial commit
     </application>
 
 </manifest>
