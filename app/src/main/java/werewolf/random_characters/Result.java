@@ -54,7 +54,19 @@ public class Result extends AppCompatActivity {
         btnGet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+<<<<<<< HEAD
                 if (pos != p_numbers)
+=======
+                if (pos == p_numbers)
+                {
+                    Intent showres = new Intent(Result.this, show.class);
+                    showres.putExtra("names", names);
+                    showres.putExtra("characters", characters);
+                    showres.putExtra("n", p_numbers);
+                    startActivity(showres);
+                }
+                else
+>>>>>>> Initial commit
                 if (txtRes.getText().toString().equals(""))
                 {
                     txtRes.setText(names[pos]);
